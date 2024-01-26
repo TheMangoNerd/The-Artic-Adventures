@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Artic Adventures</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>The Artic Adventures</h1>
+  <div class="level">
+    <span class="icon">Level 1</span> (score 0-15) jump over icicles<br/>
+   <span class="icon">Level 2</span>  (score 15-higher) duck or jump over the birds<br/>
+  </div>
+  <div class="instruction">
+    <span class="icon">space</span> or <span class="icon">&#11014;</span> to jump over spikes!<br/>
+    <span class="icon">&#11015;</span>to duck from birds!<br/>
+  </div>
+  <div id="home">
+    <button data-hover="begin!" onclick="location.href = '../game/game.html'"><div style="font-size: 30px;">Ready</div></button>
+
+    <canvas id='canvas'>
+    </canvas>
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
